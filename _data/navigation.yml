@@ -50,3 +50,21 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+
+sidenav:
+  - title: 分类
+    children:
+      - title: Marx
+        url: /marx
+      - title: Coding
+        url: /code
+      - title: notes
+        url: /notes
+      - title: thoughts
+        url: /tts
+  - title: List
+    children:
+      - title: books
+        url: /books.html
+      - title: sources
+        url: /sources.html
